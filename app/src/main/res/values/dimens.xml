@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    margin and padding-->
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xsmall">8dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+
+    <!--    textsize-->
+
+    <dimen name="big_title">32sp</dimen>
+    <dimen name="normal_title">28sp</dimen>
+    <dimen name="small_title">24sp</dimen>
+    <dimen name="title_body">20sp</dimen>
+    <dimen name="big_body">18sp</dimen>
+    <dimen name="normal_body">16sp</dimen>
+    <dimen name="small_body">14sp</dimen>
+    <dimen name="big_description">12sp</dimen>
+    <dimen name="normal_description">10sp</dimen>
+    <dimen name="small_description">8sp</dimen>
+
+
+    <dimen name="round_button_small">32dp</dimen>
+    <dimen name="round_button_medium">48dp</dimen>
+    <dimen name="round_button_large">64dp</dimen>
+
+    <dimen name="rect_button_margin">12dp</dimen>
+    <dimen name="rect_button_width">80dp</dimen>
+    <dimen name="rect_button_height">24dp</dimen>
+    <dimen name="shutter_button_margin">80dp</dimen>
+
+
+    <!--    spacing-->
+    <dimen name="spacing">4dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="code_fp_size">10dp</dimen>
+    <dimen name="size_password">60dp</dimen>
+</resources>

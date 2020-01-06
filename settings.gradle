@@ -1,0 +1,3 @@
+include ':ksoup'
+include ':app'
+rootProject.name = "MangaH"

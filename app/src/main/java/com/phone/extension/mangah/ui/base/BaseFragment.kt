@@ -72,7 +72,7 @@ abstract class BaseFragment : Fragment(), View.OnClickListener {
     }
 
 
-    fun initToolbar(title: String, isBackPressed: Boolean, isTransparent: Boolean) {
+    fun initToolbar(title: String, isBackPressed: Boolean) {
         toolbar.title = title
 
         if (isBackPressed) {
@@ -84,10 +84,7 @@ abstract class BaseFragment : Fragment(), View.OnClickListener {
                 activity!!.onBackPressed()
             }
         }
-        if (isTransparent) {
-            toolbar.setBackgroundColor(Color.TRANSPARENT)
-            appBarLayout.setBackgroundColor(Color.TRANSPARENT)
-        }
+
     }
 
     fun showLoading() {

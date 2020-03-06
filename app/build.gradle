@@ -88,8 +88,17 @@ dependencies {
 
     implementation "com.github.andrefrsousa:SuperBottomSheet:$bottom_sheet_version"
 
-    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-    implementation("io.coil-kt:coil:0.9.1")
+    implementation("io.coil-kt:coil:0.9.5")
+
     implementation project(':ksoup')
+
+    implementation 'com.github.smarteist:autoimageslider:1.3.2'
+
+    implementation 'org.jsoup:jsoup:1.12.1'
+
+    implementation 'com.trading212:sticky-headers:0.1.7'
+
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
 }

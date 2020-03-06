@@ -2,11 +2,12 @@ package com.phone.extension.mangah
 
 import android.app.Application
 import android.content.res.Resources
+import com.phone.extension.mangah.di.appModules
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
 
-class AppController : Application(){
+class AppController : Application() {
     companion object {
         lateinit var res: Resources
         lateinit var mApp: AppController
@@ -22,7 +23,7 @@ class AppController : Application(){
         startKoin {
             androidLogger()
             androidContext(this@AppController)
-//            modules(appModules)
+            modules(appModules)
         }
     }
 }

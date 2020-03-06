@@ -1,0 +1,27 @@
+[
+  {
+    "name": "category",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "favorite",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "home",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "ranking",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "setting",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]
